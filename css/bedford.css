@@ -394,3 +394,49 @@ ol{
 	float: left;
 }
 
+/* ------------ MOBILE ---------------- */
+
+@media only screen and (max-width: 800px) {
+
+	body {
+		margin: 0px;
+	}
+
+	#pill {
+		display: none !important;
+	}
+
+	#pilltext {
+		display: none;
+	}
+
+	#sitewrapper {
+		font-size: 1rem;
+	}
+
+	#nav {
+		bottom: 0px;
+		float: none;
+		padding: 5px 0px 0px 0px;
+	}
+
+	#navwrapper ul {
+		display: flex;
+		flex-direction: row;
+	}
+
+	#navwrapper ul li ul {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.action {
+		display: none;
+	}
+
+	#header {
+		height: 445px;
+	}
+
+}
+
